@@ -1,0 +1,19 @@
+{
+  "name": "desobjetos",
+  "version": "1.0.0",
+  "description": "Projeto de loja digital para o Desafio Individual 1 da rota Hacker do programa XP #38 da [Gama Academy](https://www.gama.academy/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordeirolucas42/desobjetos.git"
+  },
+  "author": "Lucas Cordeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cordeirolucas42/desobjetos/issues"
+  },
+  "homepage": "https://github.com/cordeirolucas42/desobjetos#readme"
+}
