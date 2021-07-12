@@ -1,0 +1,102 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* LOGO */
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color:#e7d6ff;
+    padding: 1em;
+    margin-bottom: 1em;
+    color: #000;
+}
+
+.logo {
+    padding: 1em;
+    line-height: 50%;    
+}
+
+/* NAVBAR */
+
+.navigationBar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    position: sticky;
+    /* width: 90%;
+    margin: auto; */
+}
+
+.navItem {
+    padding: 1em 0.5em;
+    margin: 5px 10px;
+    /* border: 1px solid #b181f37c; */
+    box-shadow: #b181f37c 0px 2px 8px 0px;
+}
+
+.navItem:hover {
+    background-color: black;    
+    color: white;
+}
+
+/* PRODUCT GRID */
+
+.productGrid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+
+    /* background-color: rgb(197, 197, 197); */
+}
+
+.gridHeader {
+    /* color: #b181f3; */
+    width: 70%;
+    margin: auto;
+}
+
+.productCard {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid rgb(196, 196, 196);
+    padding: 15px 10px;
+    margin: 15px 10px;
+
+    /* background-color: #fff; */
+    box-shadow: rgba(165, 165, 165, 0.2) 0px 2px 8px 0px;
+}
+
+.productImg {
+    width: 200px;
+    height: 200px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: x-small;
+    }
+    .productGrid {
+        width: 90%;
+        margin: auto;
+    }
+    .productImg {
+        width: 100px;
+        height: 100px;
+    }
+}
