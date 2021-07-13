@@ -113,6 +113,60 @@ header {
     height: 200px;
 }
 
+/* SOBRE NÓS */
+.aboutSection {
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 60%;
+    /* margin: auto; */
+}
+
+.aboutImg {
+    height: 400px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.aboutDecription {
+    height: 400px;
+    /* padding: 1em; */
+    margin: 1em;
+}
+
+/* CONTATO */
+.formContainer {
+    /* display: flex; */
+    /* flex-wrap: column nowrap; */
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 1em;
+    margin: 1em;
+    /* width: 60%; */
+    /* margin: auto; */
+}
+
+/* .formHeader */
+
+.formBody {
+    display: flex;
+    flex-wrap: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.formArea {
+    display: flex;
+    flex-wrap: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* .inputItem */
+
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 1024px) {
     body {

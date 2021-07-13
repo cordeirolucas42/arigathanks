@@ -9,6 +9,51 @@
     <title>Contato</title>
 </head>
 <body>
-    <h1>Contato</h1>
+    <header>
+        <div class="logo">
+            <a href="/index.html">
+                <h1>desobjetos</h1>
+            </a>
+        </div>
+        <nav class="navigationBar">
+            <a class="navItem" href="/">Principal</a>
+            <a class="navItem" href="/sobre.html">Sobre Nós</a>
+            <a class="navItem" href="/contato.html">Contato</a>
+        </nav>
+    </header>
+    <section class="formContainer">
+        <div class="formHeader">
+            <h2>Fale com a gente</h2>
+            <p>Tem problema com alguma compra ou tem dúvida sobre algum produto? Conta pra gente no formulário abaixo.</p>
+        </div>
+        <div class="formBody">
+            <form action="#">
+                <!-- nome, email, telefone, assunto, mensagem, submeter -->
+                <div class="formArea">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" class="inputItem" name="name" placeholder="seu nome aqui">
+                </div>
+                <div class="formArea">
+                    <label for="email">Email</label>
+                <input type="email" id="email" class="inputItem" name="email" placeholder="seu email aqui">
+                </div>
+                <div class="formArea">
+                    <label for="phone">Telefone</label>
+                <input type="tel" id="phone" class="inputItem" name="phone" placeholder="seu contato de telefone">
+                </div>
+                <div class="formArea">
+                    <label for="name">Assunto</label>
+                <input type="text" id="subject" class="inputItem" name="subject" placeholder="Dúvida / Reclamação / Troca">
+                </div>
+                <div class="formArea">
+                    <label for="description">Sua mensagem:</label>
+                    <textarea name="description" id="description" cols="30" rows="10" class="inputItem"></textarea>
+                </div>
+                <div class="formArea">
+                    <input type="submit" value="Enviar" class="inputItem">
+                </div>                
+            </form>
+        </div>
+    </section>
 </body>
 </html>
