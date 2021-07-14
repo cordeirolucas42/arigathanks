@@ -20,7 +20,7 @@ Dar acesso aos produtos da loja para o usuário através da página inicial.
  - [x] Criar página HTML com informações "mock" sobre 20 produtos expostos em grade
  - [x] Adicionar barra de navegação simples com links para as páginas "Sobre nós" e "Contato"
  - [x] Definir formato da página inicial com base em outras lojas virtuais existentes
- - [ ] Aplicar CSS e Bootstrap de forma a organizar as informações na página
+ - [x] Aplicar CSS e Bootstrap de forma a organizar as informações na página
 
 ## Sprint 2 ~ 15/07 a 17/07 ~ 8 pontos
 
@@ -38,10 +38,9 @@ Acrescentar informações básicas sobre produtos e a loja para fácil acesso do
 
 ### ✔️ Tasks:
 
- - [ ] Criar página HTML para a página de detalhes de um produto com informações "mock" sobre um dos produtos
+ - [x] Criar página HTML para a página de detalhes de um produto com informações "mock" sobre um dos produtos
  - [x] Criar página HTML para a página de informações institucionais com texto "mock"
  - [x] Criar página HTML para a página de contato com um formulário para envio de email (sem funcionalidade real de envio)
- - [x] Definir formato da página inicial com base em outras lojas virtuais existentes
 
 ## Sprint 3 ~ 18/07 a 20/07 ~ 6 pontos
 
@@ -58,8 +57,8 @@ Facilitar que o cliente encontre o produto que deseja através da navegação po
 ### ✔️ Tasks:
 
  - [ ] Definir ramo de atividade, categorias e produtos em cada categoria
- - [ ] Adicionar uma página HTML para cada categoria, baseadas na página inicial já criada, com produtos expostos em grade
- - [ ] Adicionar menu com categorias à página inicial, dando acesso às páginas de categoria
+ - [x] Adicionar uma página HTML para cada categoria, baseadas na página inicial já criada, com produtos expostos em grade
+ - [x] Adicionar menu com categorias à página inicial, dando acesso às páginas de categoria
 
 ## Sprint 4 ~ 21/07 a 23/07 ~ 8 pontos
 
@@ -78,7 +77,7 @@ Melhorar a experiência do usuário através de uma interface clara e esteticame
  - [ ] Definir imagens para cada produto, organizando-os para fácil acesso
  - [ ] Adicionar imagens às páginas principal, de categorias e de detalhes dos produto, utilizando-se de recursos de acessibilidade
  - [ ] Adicionar Bootstrap às páginas, tendo como base outras lojas virtuais, utilizando recursos de responsividade
- - [ ] Checar se a usabilidade se mantém em todas as três formas de acesso
+ - [ ] Checar se a usabilidade se mantém em todas as três formas de acesso (1280px, 1024px, 375px)
 
 <hr>
 
