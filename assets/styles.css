@@ -167,6 +167,44 @@ header {
 
 /* .inputItem */
 
+/* DETALHES */
+/* div {
+    border: solid 1px black;
+} */
+details {
+    display: flex;
+    /* children are not inline */
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.detailsContainer {
+    display: flex;
+    flex-wrap: row nowrap;
+    flex-grow: 3;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 1%;
+    box-shadow: #b181f37c 0px 2px 8px 0px;
+    padding: 1em;
+    margin: 3em;
+}
+.priceContainer {
+    flex-grow: 1;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 1%;
+    box-shadow: #b181f37c 0px 2px 8px 0px;
+    padding: 1em;
+    margin: 3em;
+}
+.detailsBox {
+    padding: 1em;
+}
+.detailsImg {
+    width: 300px;
+}
+
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 1024px) {
     body {
