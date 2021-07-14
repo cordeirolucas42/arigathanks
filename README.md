@@ -50,8 +50,10 @@ Acrescentar informações básicas sobre produtos e a loja para fácil acesso do
 Facilitar que o cliente encontre o produto que deseja através da navegação por categorias.
 
 ### 👥 User Stories:
- - [3 pontos] Eu como cliente de lojas virtuais, quero poder filtrar os produtos por categoria, de forma a navegar apenas pelos produtos que eu desejo.
- - [3 pontos] Eu como cliente da Desobjetos, quero que os produtos estejam bem organizados entre categorias, para que a tarefa de encontrar e decidir sobre minha compra seja facilitada.
+
+[3 pontos] Eu como cliente de lojas virtuais, quero poder filtrar os produtos por categoria, de forma a navegar apenas pelos produtos que eu desejo.
+
+[3 pontos] Eu como cliente da Desobjetos, quero que os produtos estejam bem organizados entre categorias, para que a tarefa de encontrar e decidir sobre minha compra seja facilitada.
 
 ### ✔️ Tasks:
 
@@ -66,8 +68,10 @@ Facilitar que o cliente encontre o produto que deseja através da navegação po
 Melhorar a experiência do usuário através de uma interface clara e esteticamente agradável.
 
 ### 👥 User Stories:
- - [5 pontos] Eu como cliente de lojas virtuais, gostaria de navegar em páginas web com estilo claro e esteticamente agradável, pois isso me estimula a permanecer na página e visitá-la outras vezes.
- - [3 pontos] Eu como cliente de lojas virtuais, gostaria de acessar o site da loja através de diversos dispositivos, como desktop, tablet e celular, tendo assim praticidade nas minhas compras virtuais.
+
+[5 pontos] Eu como cliente de lojas virtuais, gostaria de navegar em páginas web com estilo claro e esteticamente agradável, pois isso me estimula a permanecer na página e visitá-la outras vezes.
+
+[3 pontos] Eu como cliente de lojas virtuais, gostaria de acessar o site da loja através de diversos dispositivos, como desktop, tablet e celular, tendo assim praticidade nas minhas compras virtuais.
 
 ### ✔️ Tasks:
 
