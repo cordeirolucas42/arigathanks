@@ -5,26 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style-bootstrap.css">
     <link rel="shortcut icon" href="./public/d-icon.png" type="image/x-icon">
     <title>desobjetos</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <a href="./index.html">
-                <h1>desobjetos</h1>
-            </a>
-        </div>
-        <nav class="navigationBar">
-            <a class="navItem" href="./index.html">Principal</a>
-            <a class="navItem" href="./sobre.html">Sobre Nós</a>
-            <a class="navItem" href="./contato.html">Contato</a>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-warning navigationBar">
+            <div class="navbar-brand logo">
+                <a href="./index.html">
+                    <h1 class="display-3 px-5">desobjetos</h1>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link navItem" href="./index.html">Principal</a>
+                    <a class="nav-link navItem" href="./sobre.html">Sobre Nós</a>
+                    <a class="nav-link navItem" href="./contato.html">Contato</a>
+                </div>
+            </div>
+            
         </nav>
     </header>
 
-    <section class="gridContainer">
+    <section class="container mt-5 w-75 gridContainer">
         <div class="gridHeader">
             <h2>Produtos que estão em alta</h2>
         </div>
@@ -35,173 +45,258 @@
             <a class="catItem" href="./categorias/categoria3.html">Categoria3</a>
             <a class="catItem" href="./categorias/categoria4.html">Categoria4</a>
         </nav>
-        <div class="productGrid">
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
+        <div class="container mt-5 productGrid">
+            <div class="row row-cols-xl-4 g-xl-6 row-cols-lg-3 g-lg-2 row-cols-2 g-1 align-items-stretch">
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title fs-6 fs-xl-1">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 productCard">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

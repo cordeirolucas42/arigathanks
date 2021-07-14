@@ -116,7 +116,7 @@ header {
 /* SOBRE NÓS */
 .aboutSection {
     display: flex;
-    flex-wrap: row nowrap;
+    flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: flex-start;
 
@@ -139,7 +139,7 @@ header {
 /* CONTATO */
 .formContainer {
     /* display: flex; */
-    /* flex-wrap: column nowrap; */
+    /* flex-flow: column nowrap; */
     justify-content: flex-start;
     align-items: flex-start;
 
@@ -153,14 +153,14 @@ header {
 
 .formBody {
     display: flex;
-    flex-wrap: column nowrap;
+    flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
 .formArea {
     display: flex;
-    flex-wrap: column nowrap;
+    flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -174,15 +174,15 @@ header {
 details {
     display: flex;
     /* children are not inline */
-    flex-wrap: row wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
+    flex-flow: row nowrap;
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
 }
 .detailsContainer {
     display: flex;
-    flex-wrap: row nowrap;
-    flex-grow: 3;
-    width: 40%;
+    flex-flow: row nowrap;
+    flex: 1 1 300px;
+    /* width: 40%; */
     background-color: #fff;
     border-radius: 1%;
     box-shadow: #b181f37c 0px 2px 8px 0px;
@@ -190,8 +190,7 @@ details {
     margin: 3em;
 }
 .priceContainer {
-    flex-grow: 1;
-    width: 20%;
+    flex: 1 1 300px;
     background-color: #fff;
     border-radius: 1%;
     box-shadow: #b181f37c 0px 2px 8px 0px;
