@@ -17,27 +17,23 @@
 
 <body>
     <header>
+        <!-- NAVBAR - ICONS VERSION -->
         <div class="navbar navbar-light bg-warning">
-            <div class="container py-2">
-                <a class="navbar-brand d-flex align-items-center" href="./index.html">
-                    <strong>
-                        <h1>Arigathanks!</h1>
-                    </strong>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseButton"
-                    aria-controls="collapseButton" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-ellipsis-h"></i>
-                </button>
-            </div>
-        </div>
-        <div class="collapse" id="collapseButton">
-            <div class="list-group list-group-horizontal justify-content-center align-items-center text-center">
-                <a class="list-group-item list-group-item-warning flex-fill py-3 px-2 m-0"
-                    href="../index.html">Principal</a>
-                <a class="list-group-item list-group-item-warning flex-fill py-3 px-2 m-0" href="../sobre.html">Sobre
-                    Nós</a>
-                <a class="list-group-item list-group-item-warning flex-fill py-3 px-2 m-0"
-                    href="../contato.html">Contato</a>
+            <div class="row w-100 p-2 justify-content-center align-items-center">
+                <div class="col-8 col-lg-6">
+                    <a href="../index.html">
+                        <strong>
+                            <h1 class="display-4">Arigathanks!</h1>
+                        </strong>
+                    </a>
+                </div>
+                <div class="col-2 col-lg-1">
+                    <a href="../contato.html"><img id="contactIcon" src="../public/contact.png" alt="Ícone Contato"></a>
+                </div>
+                <div class="col-2 col-lg-1">
+                    <a href="../sobre.html"><img id="aboutIcon" src="../public/about.png" alt="Ícone Sobre Nós"></a>
+                </div>
+                
             </div>
         </div>
     </header>

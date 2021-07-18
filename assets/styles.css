@@ -2,3 +2,21 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+#aboutIcon {
+    width: 28px;
+}
+
+#contactIcon {
+    width: 35px;
+}
+
+@media (min-width: 1200px) {
+    #aboutIcon {
+        width: 50px;
+    }
+    
+    #contactIcon {
+        width: 65px;
+    }
+}
