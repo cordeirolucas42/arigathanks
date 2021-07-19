@@ -1,207 +1,700 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Cordeiro">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="shortcut icon" href="./public/d-icon.png" type="image/x-icon">
-    <title>desobjetos</title>
+    <link rel="shortcut icon" href="./public/a-icon.png" />
+    <title>Arigathanks!</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <a href="./index.html">
-                <h1>desobjetos</h1>
-            </a>
+        <!-- NAVBAR - ICONS VERSION -->
+        <div class="navbar navbar-light bg-warning">
+            <div class="row w-100 p-2 justify-content-center align-items-center">
+                <div class="col-8 col-xl-6">
+                    <a href="./index.html">
+                        <strong>
+                            <h1 class="display-4">Arigathanks!</h1>
+                        </strong>
+                    </a>
+                </div>
+                <div class="col-2 col-xl-1">
+                    <a href="./contato.html"><img id="contactIcon" src="./public/contact.png" alt="Ícone Contato"></a>
+                </div>
+                <div class="col-2 col-xl-1">
+                    <a href="./sobre.html"><img id="aboutIcon" src="./public/about.png" alt="Ícone Sobre Nós"></a>
+                </div>
+                
+            </div>
         </div>
-        <nav class="navigationBar">
-            <a class="navItem" href="./index.html">Principal</a>
-            <a class="navItem" href="./sobre.html">Sobre Nós</a>
-            <a class="navItem" href="./contato.html">Contato</a>
-        </nav>
     </header>
+    <main>
+        <section class="container-lg">
+            <!-- CATEGORIAS - VERSÃO ACCORDION -->
+            <div class="accordion my-3" id="accordionCategories">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Categorias
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionCategories">
+                        <div class="accordion-body">
+                            <div class="row row-cols-sm-6 row-cols-3 text-center justify-content-center align-items-stretch m-0">
+                                <div class="col"><a class="categories" href="./index.html">Principal</a></div>
+                                <div class="col"><a class="categories" href="./categorias/bottoms.html">Bottoms</a></div>
+                                <div class="col"><a class="categories" href="./categorias/brincos.html">Brincos</a></div>
+                                <div class="col"><a class="categories" href="./categorias/papelaria.html">Papelaria</a></div>
+                                <div class="col"><a class="categories" href="./categorias/posteres.html">Pôsteres</a></div>
+                                <div class="col"><a class="categories" href="./categorias/stickers.html">Stickers</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <section class="gridContainer">
-        <div class="gridHeader">
-            <h2>Produtos que estão em alta</h2>
-        </div>
-        <nav class="categoryNav">
-            <a class="catItem" href="./index.html">Principal</a>
-            <a class="catItem" href="./categorias/categoria1.html">Categoria1</a>
-            <a class="catItem" href="./categorias/categoria2.html">Categoria2</a>
-            <a class="catItem" href="./categorias/categoria3.html">Categoria3</a>
-            <a class="catItem" href="./categorias/categoria4.html">Categoria4</a>
-        </nav>
-        <div class="productGrid">
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract3.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract2.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract4.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-            <a href="./detalhes.html">
-                <article class="productCard">
-                    <img class="productImg" src="./public/abstract1.jpg" alt="Imagem_Temporaria">
-                    <span>Nome_Produto</span>
-                    <span>Preço_Produto</span>
-                    <span>Condições_Pagamento</span>
-                </article>
-            </a>
-        </div>
-    </section>
+            <!-- CATEGORIAS - VERSÃO SWIPE HORIZONTAL - TO BE IMPLEMENTED -->
 
+            <!-- PRODUCT GRID -->
+            <div class="row g-xl-6 row-cols-lg-3 g-lg-2 row-cols-sm-2 row-cols-1 g-3 align-items-stretch">
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Bottoms/IMG_2125(1).jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Bottoms/IMG_2125(2).jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Bottoms/IMG_2125(3).jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Bottoms/IMG_2125(4).jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Brincos/IMG_2193.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Brincos/IMG_2198.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Brincos/IMG_2206.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Papelaria/IMG_2140.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Papelaria/IMG_2145.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Papelaria/IMG_2176.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                     src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Papelaria/IMG_2177.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Papelaria/IMG_2181.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Papelaria/IMG_2183.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2083.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2086.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2087.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2088.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2089.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2090.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2091.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2092.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2093.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2094.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2095.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2096.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2097.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2098.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2099.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2100.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/_MG_2049.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/_MG_2104.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/_MG_2105.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2046.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2055.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2056.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2059.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2062.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2067.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2069.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2070.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2074.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2169.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2170.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100 shadow-sm">
+                        <a href="./detalhes.html">
+                            <img class="card-img-top productImg"
+                                src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/Stickers/IMG_2173.jpg"
+                                alt="Imagem_Temporaria">
+                            <div class="card-body">
+                                <h5 class="card-title">Nome_Produto</h5>
+                                <p class="card-subtitle mb-2">Preço_Produto</p>
+                                <p class="card-text">Condições_Pagamento</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+    </main>
     <footer>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

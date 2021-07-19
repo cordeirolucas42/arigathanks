@@ -1,59 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Cordeiro">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="shortcut icon" href="./public/d-icon.png" type="image/x-icon">
-    <title>Contato</title>
+    <link rel="shortcut icon" href="./public/a-icon.png" />
+    <title>Contato | Arigathanks</title>
 </head>
+
 <body>
     <header>
-        <div class="logo">
-            <a href="./index.html">
-                <h1>desobjetos</h1>
-            </a>
+        <!-- NAVBAR - ICONS VERSION -->
+        <div class="navbar navbar-light bg-warning">
+            <div class="row w-100 p-2 justify-content-center align-items-center">
+                <div class="col-8 col-lg-6">
+                    <a href="./index.html">
+                        <strong>
+                            <h1 class="display-4">Arigathanks!</h1>
+                        </strong>
+                    </a>
+                </div>
+                <div class="col-2 col-lg-1">
+                    <a href="./contato.html"><img id="contactIcon" src="./public/contact.png" alt="Ícone Contato"></a>
+                </div>
+                <div class="col-2 col-lg-1">
+                    <a href="./sobre.html"><img id="aboutIcon" src="./public/about.png" alt="Ícone Sobre Nós"></a>
+                </div>
+                
+            </div>
         </div>
-        <nav class="navigationBar">
-            <a class="navItem" href="./index.html">Principal</a>
-            <a class="navItem" href="./sobre.html">Sobre Nós</a>
-            <a class="navItem" href="./contato.html">Contato</a>
-        </nav>
     </header>
-    <section class="formContainer">
-        <div class="formHeader">
-            <h2>Fale com a gente</h2>
-            <p>Tem problema com alguma compra ou tem dúvida sobre algum produto? Conta pra gente no formulário abaixo.</p>
-        </div>
-        <div class="formBody">
-            <form action="#">
-                <!-- nome, email, telefone, assunto, mensagem, submeter -->
-                <div class="formArea">
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" class="inputItem" name="name" placeholder="seu nome aqui">
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 mx-lg-auto">
+                    <h2 class="display-5 mt-4">Fale com a gente</h2>
+            <p class="text-muted">Tem problema com alguma compra ou tem dúvida sobre algum produto? Conta pra gente no formulário abaixo.</p>
+            <form class="mt-4">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" aria-describedby="name">
                 </div>
-                <div class="formArea">
-                    <label for="email">Email</label>
-                <input type="email" id="email" class="inputItem" name="email" placeholder="seu email aqui">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Endereço de Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                 </div>
-                <div class="formArea">
-                    <label for="phone">Telefone</label>
-                <input type="tel" id="phone" class="inputItem" name="phone" placeholder="seu contato de telefone">
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="phone">
                 </div>
-                <div class="formArea">
-                    <label for="name">Assunto</label>
-                <input type="text" id="subject" class="inputItem" name="subject" placeholder="Dúvida / Reclamação / Troca">
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Assunto</label>
+                    <input type="text" class="form-control" id="subject" aria-describedby="name">
                 </div>
-                <div class="formArea">
-                    <label for="description">Sua mensagem:</label>
-                    <textarea name="description" id="description" cols="30" rows="10" class="inputItem"></textarea>
+                <div class="mb-3">
+                    <label for="floatingTextarea2" class="form-label">Comentários</label>
+                    <textarea class="form-control"id="floatingTextarea2"></textarea>                    
                 </div>
-                <div class="formArea">
-                    <input type="submit" value="Enviar" class="inputItem">
-                </div>                
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+                </div>
+            </div>
+            
         </div>
-    </section>
+        
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
-</html>
