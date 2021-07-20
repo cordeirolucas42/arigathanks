@@ -21,6 +21,10 @@ a {
     background-color: #e7d6ff !important;
 }
 
+.scrolling-wrapper{
+	overflow-x: scroll;
+}
+
 #aboutIcon {
     width: 28px;
 }
@@ -30,6 +34,10 @@ a {
 }
 
 @media (min-width: 1200px) {
+    .scrolling-wrapper{
+        overflow-x: auto;
+    }
+
     #aboutIcon {
         width: 50px;
     }
