@@ -1,3 +1,4 @@
+/* OVERWRITE FONTS */
 * {
     /* font-family: 'Heebo', sans-serif;
 
@@ -10,13 +11,19 @@ h1 {
     font-family: 'Ramabhadra', sans-serif;
 }
 
+/* OVERWRITE <a> TAG BEHAVIOR */
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* purple1 #b181f3 purple2 #e7d6ff */
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
 
+/* OVERWRITE BGC */
+/* purple1 #b181f3 purple2 #e7d6ff */
 .bg-warning {
     background-color: #e7d6ff !important;
 }
@@ -25,6 +32,28 @@ a {
 	overflow-x: scroll;
 }
 
+/* CATEGORY MENU HORIZONTAL SCROLLING STYLING */
+.categories {
+    padding: 0.3em 3em;
+    margin: 1em 0;
+    border-left: 1px solid #b181f3;
+    border-right: 1px solid #b181f3;
+    /* border-radius: 5px; */
+}
+.categories:first-child {
+    border-left: 0;
+}
+.categories:last-child {
+    border-right: 0;
+}
+
+.categories:hover {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+}
+
+/* NAVBAR ICONS */
 #aboutIcon {
     width: 28px;
 }
@@ -33,7 +62,21 @@ a {
     width: 35px;
 }
 
+/* EXCLUSIVE STYLES FOR >1200px VIEW */
 @media (min-width: 1200px) {
+    .categories {
+        padding: 0.7em 3em;
+        margin: 1em 0;
+        border-left: 1px solid #b181f3;
+        border-right: 1px solid #b181f3;
+        /* border-radius: 5px; */
+    }
+    .categories:first-child {
+        border-left: 0;
+    }
+    .categories:last-child {
+        border-right: 0;
+    }
     .scrolling-wrapper{
         overflow-x: auto;
     }
