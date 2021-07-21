@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Lucas Cordeiro">
+    <meta name="description" content="Loja Virtual de Produtos Otakus! Protótipo para Desafio do Gama XP Hacker.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Merriweather+Sans&family=Otomanopee+One&family=Ramabhadra&family=Rubik&display=swap" rel="stylesheet">
@@ -14,36 +15,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="shortcut icon" href="./public/a-icon.png" />
-    <title>Arigathanks!</title>
+    <!-- <link rel="shortcut icon" href="./public/a-icon.png" /> -->
+    <title>あ Arigathanks!</title>
 </head>
 
 <body>
     <header>
         <!-- NAVBAR - ICONS VERSION -->
         <div class="navbar navbar-light bg-warning">
-            <div class="row w-100 p-2 justify-content-center align-items-center">
-                <div class="col-8 col-xl-6">
+            <div class="d-flex flex-row flex-nowrap container align-items-center">
+                <div class="flex-grow-1">
                     <a href="./index.html">
                         <strong>
-                            <h1 class="display-4"><strong>あ</strong> Arigathanks!</h1>
+                            <h1 class="display-4"><span class="hiragana">あ</span> Arigathanks!</h1>
                         </strong>
                     </a>
                 </div>
-                <div class="col-2 col-xl-1">
+                <!-- <div class="col-xl-2"></div> -->
+                <div class="text-center">
                     <a href="./contato.html"><img id="contactIcon" src="./public/contact.png" alt="Ícone Contato"></a>
                 </div>
-                <div class="col-2 col-xl-1">
+                <div class="text-center">
                     <a href="./sobre.html"><img id="aboutIcon" src="./public/about.png" alt="Ícone Sobre Nós"></a>
-                </div>
-                
+                </div>                
             </div>
         </div>
     </header>
     <main>
         <section class="container-lg">
             <div class="scrolling-wrapper text-center d-flex flex-row flex-nowrap align-items-stretch">
-                <div class="flex-fill categories"><a href="./index.html">Principal</a></div>
+                <div class="flex-fill categories activeCategory"><a href="./index.html">Principal</a></div>
                 <div class="flex-fill categories"><a href="./categorias/bottons.html">Bottons</a></div>
                 <div class="flex-fill categories"><a href="./categorias/brincos.html">Brincos</a></div>
                 <div class="flex-fill categories"><a href="./categorias/papelaria.html">Papelaria</a></div>
@@ -431,7 +432,7 @@
                                 src="https://images-cord-dev.s3.us-east-2.amazonaws.com/Arigathanks/P%C3%B4steres/IMG_2100.jpg"
                                 alt="Imagem_Temporaria">
                             <div class="card-body">
-                                <h5 class="card-title">Pôster Anime</h5>
+                                <h5 class="card-title">Pôster Dororo</h5>
                                 <p class="card-subtitle mb-2">R$ 11,90 cada</p>
                                 <p class="card-text">2 por R$ 20,00</p>
                             </div>

@@ -1,6 +1,8 @@
-# **desobjetos**
+# **あ Arigathanks!**
 
-Projeto de loja digital para o Desafio Individual 1 da rota Hacker do programa XP #38 da [Gama Academy](https://www.gama.academy/).
+Uma loja virtual de produtos Otakus.
+
+Protótipo desenvolvido para o Desafio Individual 1 da rota Hacker do programa XP #38 da [Gama Academy](https://www.gama.academy/).
 
 ## 📅 **Planejamento utilizando metodologias ágeis:**
 
@@ -56,7 +58,7 @@ Facilitar que o cliente encontre o produto que deseja através da navegação po
 
 ### ✔️ Tasks:
 
- - [ ] Definir ramo de atividade, categorias e produtos em cada categoria
+ - [x] Definir ramo de atividade, categorias e produtos em cada categoria
  - [x] Adicionar uma página HTML para cada categoria, baseadas na página inicial já criada, com produtos expostos em grade
  - [x] Adicionar menu com categorias à página inicial, dando acesso às páginas de categoria
 
@@ -74,10 +76,10 @@ Melhorar a experiência do usuário através de uma interface clara e esteticame
 
 ### ✔️ Tasks:
 
- - [ ] Definir imagens para cada produto, organizando-os para fácil acesso
- - [ ] Adicionar imagens às páginas principal, de categorias e de detalhes dos produto, utilizando-se de recursos de acessibilidade
- - [ ] Adicionar Bootstrap às páginas, tendo como base outras lojas virtuais, utilizando recursos de responsividade
- - [ ] Checar se a usabilidade se mantém em todas as três formas de acesso (1280px, 1024px, 375px)
+ - [x] Definir imagens para cada produto, organizando-os para fácil acesso
+ - [x] Adicionar imagens às páginas principal, de categorias e de detalhes dos produto, utilizando-se de recursos de acessibilidade
+ - [x] Adicionar Bootstrap às páginas, tendo como base outras lojas virtuais, utilizando recursos de responsividade
+ - [x] Checar se a usabilidade se mantém em todas as três formas de acesso (1280px, 1024px, 375px)
 
 <hr>
 
